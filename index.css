@@ -1,0 +1,58 @@
+
+
+
+.img{
+    filter: brightness(60%);
+}
+h1{
+    color: white;
+    text-align: start;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+p{
+    color: white;
+    text-align: start;
+    font-size: 15px;
+    line-height: 2;
+  margin-top: 19px;
+   
+}
+.hp{
+    margin-bottom: 150px;
+}
+button{
+    height: 70px;
+    border: 1px;
+    border-radius: 45px;
+    margin-right: 850px; 
+    width: 200px;
+    background-color:rgb(94, 6, 138);
+   color: white;
+}
+.second-btn{
+    height: 30px;
+    width:100px ;
+    margin: 10px;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color:rgb(94, 6, 138);
+}
+.submit{
+    margin-right: 300px;
+    border-radius: 5px;
+    height: 50px;
+}
+.next{
+    margin-top: 320px;
+ margin-right: 20px;
+}
+.previous{
+    margin-top: 320px;
+
+}
+
