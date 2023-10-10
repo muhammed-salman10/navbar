@@ -114,6 +114,17 @@ div img{
     margin-bottom: 20px;
 }
 
+.py:hover{
+    transform: scale(1.1);
+}
+.stu:hover{
+    transform: scale(1.1);
+}
+.mearn:hover{
+    transform: scale(1.1);
+
+}
+
 @media only screen and (max-width: 600px) {
     /* #slider_img1 ,#slider_img2 {
         
