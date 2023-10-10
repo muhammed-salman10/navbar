@@ -1,122 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fuggles&family=Kaushan+Script&family=Lora&family=Montserrat:wght@500&family=Mulish:wght@200&family=Playfair+Display:ital,wght@1,400;1,500&family=Poppins&display=swap');
 
 
+a{
+    font-family:'Montserrat', sans-serif;
+    color: #5e068a ;
+}
+#slider_img1{
+    background-image: url('./image/slider\ 1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    min-width: 100%;
+}
 
-.img{
-    filter: brightness(60%);
-}
-h1{
-    color: white;
-    text-align: start;
-    font-size: 50px;
-    font-weight: bold;
-    
-}
-p{
-    color: white;
-    text-align: start;
-    font-size: 15px;
-    line-height: 2;
-  margin-top: 19px;
-   
-}
-.hp{
-    margin-bottom: 150px;
-}
-button{
-    height: 70px;
-    border: 1px;
-    border-radius: 45px;
-    margin-right: 850px; 
-    width: 200px;
-    background-color:rgb(94, 6, 138);
-   color: white;
-}
-.second-btn{
-    height: 30px;
-    width:100px ;
-    margin: 10px;
-}
-.btn{
-    height: 40px;
-    width: 100px;
-    border-radius: 10px;
-    background-color:rgb(94, 6, 138);
-}
-.submit{
-    margin-right: 300px;
-    border-radius: 5px;
-    height: 50px;
-}
-.next{
-    margin-top: 320px;
- margin-right: 20px;
-}
-.previous{
-    margin-top: 320px;
+#slider_img2{
+    background-image: url('./image/slide2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    min-width: 100%;
 
 } 
+ .carousel h1{
+    font-weight: 700;
+    text-align: left;
+    margin-left: 150px;
+    font-size: 4vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.carousel p{
+    width: 65%;
+    margin-left: 150px;
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+.slider_content{
+    margin-top: 60px;
+}
 
-/* @media only screen and (max-width:768px) 
-{
-    .toggle{
-        margin-left: 200px;
-        margin-bottom: 10px;
-    }
-    .div1{
-        height: 700px;
-        width: 955px;
-    }
-    .hp{
-        margin-bottom: 10px;
-    }
-    h1{
-        font-size: 60px;
-    }
-    button{
-        height: 50px;     
-        width: 150px;
+.slider_btn a{
+    /* font-family:'Montserrat', sans-serif; */
+    background-color:  #5e068a;
+    text-decoration: none;
+    margin-left: 150px;
+    margin-top: ;   
+}
+.slider_btn a:hover{
+    background-color: #9f75b5b9;
+    transition: 1s;
+}
+.about-area p{
+   
+    line-height: 28px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    max-width: 565px;
+}
+.about-area a{
+    text-decoration: none;
+    background-color: #5e068a;
+   
+}
+.second-col h3{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #5e068a;
+    margin-top: 20px;
+}
+div img{
+    height: 100%;
+}
+.gallery_content{
+    /* height: 100vh; */
+}
+
+.gallery_content_full{
+    /* height: 600px; */
+}
+.gallery{
+    /* height: 90%; */
+
+}
+.gallery_body{
+    width: 340px;
+    height: 490px;
+    background-color: #ffff;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.gallery_body img{
+   width: 340px;
+    height: 190px;
+    /* padding: 0px 15px; */
+}
+.content h3{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #5e068a;
+    margin-top: 20px;
+
+}
+.content .desc{
+    font-size: 15px;
+    color: #414141;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* #slider_img1 ,#slider_img2 {
         
-}
-  .btn{
-    margin-bottom: 700px;
-  /* } */
-
-
- 
-  /* h1{
-    text-align: start;
-    font-size: 50px;
-    font-weight: bold;
-
-  }
-  p
-{
-    text-align: start;
-}
-.hp{
-    margin-bottom: 200px;
-}
-.img{
-    filter: brightness(60%);
-}
-button{
-    height: 70px;
-    border: 1px;
-    border-radius: 45px;
-    margin-right: 850px; 
-    width: 200px;
-    background-color:rgb(94, 6, 138);
-   color: white;
-}
-
-@media only screen and (max-width:768px)
-{
-    h1{
-        margin-top: 300px;
-        font-size: 10px;
+        height: 100%;
+       width: 100%;
+    } */
+    .carousel h1{
+        margin-left: 20px;
+       
     }
-} */
-    
-
- 
-
+    .carousel p{
+        margin-left: 20px;
+        line-height: 1.2;
+        margin-top: 0px;
+        font-size: 15px; 
+        width: 90%;
+    }
+   
+    .slider_btn a {
+       /* padding: 2px 5px; */
+        margin-left: 20px;  
+        font-size: 10px; 
+        margin-top: 5px;
+    }
+   
+  }
